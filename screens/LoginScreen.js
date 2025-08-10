@@ -23,7 +23,7 @@ export default function LoginScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Rafiki Assist - Login</Text>
+      <Text style={styles.title}>Welcome to Rafiki Assist</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: "center", padding: 20, backgroundColor: "#f9f9f9" },
   title: { fontSize: 24, fontWeight: "bold", marginBottom: 20, textAlign: "center" },
   input: { borderWidth: 1, borderColor: "#ccc", padding: 12, borderRadius: 8, marginBottom: 12 },
-  button: { backgroundColor: "#4CAF50", padding: 14, borderRadius: 8 },
+  button: { backgroundColor: "rgba(61, 164, 154, 1)", padding: 14, borderRadius: 8 },
   buttonText: { color: "#fff", textAlign: "center", fontWeight: "bold" },
   link: { color: "#007BFF", textAlign: "center", marginTop: 12 }
 });
